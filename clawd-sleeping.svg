@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="120" height="120">
+  <defs>
+    <style>
+      .sleep-body {
+        transform-origin: 7.5px 16px;
+        animation: sleep-breathe 3s infinite ease-in-out;
+      }
+      .sleep-shadow {
+        animation: shadow-breathe 3s infinite ease-in-out;
+      }
+      .zzz1 { animation: zzz-float 2s infinite ease-out; }
+      .zzz2 { animation: zzz-float 2s infinite ease-out 0.7s; }
+      .zzz3 { animation: zzz-float 2s infinite ease-out 1.4s; }
+      @keyframes sleep-breathe {
+        0%, 100% { transform: scaleY(1); }
+        50% { transform: scaleY(0.97) translateY(0.5px); }
+      }
+      @keyframes shadow-breathe {
+        0%, 100% { transform: scaleX(1); opacity: 0.5; }
+        50% { transform: scaleX(1.05); opacity: 0.6; }
+      }
+      @keyframes zzz-float {
+        0% { opacity: 0; transform: translate(0, 0) scale(0.6); }
+        30% { opacity: 1; }
+        100% { opacity: 0; transform: translate(3px, -5px) scale(1.2); }
+      }
+    </style>
+  </defs>
+  <!-- Shadow -->
+  <rect class="sleep-shadow" x="3" y="17" width="9" height="1" fill="#000" opacity="0.5"/>
+  <!-- Zzz -->
+  <g fill="#8888FF" font-family="monospace">
+    <rect class="zzz1" x="14" y="4" width="2" height="1"/>
+    <rect class="zzz1" x="14" y="3" width="1" height="1"/>
+    <rect class="zzz1" x="15" y="5" width="1" height="1"/>
+    <rect class="zzz2" x="16" y="2" width="1.5" height="0.8"/>
+    <rect class="zzz2" x="16" y="1.2" width="0.8" height="0.8"/>
+    <rect class="zzz2" x="16.7" y="2.8" width="0.8" height="0.8"/>
+    <rect class="zzz3" x="17.5" y="0" width="1" height="0.6"/>
+    <rect class="zzz3" x="17.5" y="0" width="0.5" height="0.6"/>
+    <rect class="zzz3" x="18" y="0.6" width="0.5" height="0.5"/>
+  </g>
+  <!-- Body -->
+  <g class="sleep-body">
+    <g fill="#DE886D">
+      <!-- Legs (relaxed) -->
+      <rect x="3" y="15" width="1" height="2"/>
+      <rect x="5" y="15" width="1" height="2"/>
+      <rect x="9" y="15" width="1" height="2"/>
+      <rect x="11" y="15" width="1" height="2"/>
+      <!-- Torso -->
+      <rect x="2" y="6" width="11" height="9"/>
+      <!-- Arms (relaxed, down) -->
+      <rect x="0" y="11" width="2" height="2"/>
+      <rect x="13" y="11" width="2" height="2"/>
+    </g>
+    <!-- Closed eyes (horizontal lines) -->
+    <g fill="#000">
+      <rect x="4" y="9" width="3" height="1"/>
+      <rect x="10" y="9" width="3" height="1"/>
+    </g>
+    <!-- Sleeping mouth (small o) -->
+    <g fill="#000">
+      <rect x="7" y="12" width="1" height="1"/>
+      <rect x="6" y="13" width="1" height="1"/>
+      <rect x="8" y="13" width="1" height="1"/>
+      <rect x="7" y="14" width="1" height="1"/>
+    </g>
+    <!-- Sleep bubble from mouth -->
+    <g fill="#FFFFFF" opacity="0.5">
+      <rect x="9" y="12" width="1" height="1"/>
+      <rect x="10" y="11" width="1" height="1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 24" width="120" height="160">
+  <defs>
+    <style>
+      .dance-body {
+        transform-origin: 7.5px 20px;
+        animation: dance-bounce 0.5s infinite ease-in-out;
+      }
+      .dance-shadow {
+        transform-origin: 7.5px 21px;
+        animation: shadow-pulse 0.5s infinite ease-in-out;
+      }
+      .left-arm-dance {
+        transform-origin: 1px 11px;
+        animation: arm-left-wave 0.5s infinite ease-in-out;
+      }
+      .right-arm-dance {
+        transform-origin: 14px 11px;
+        animation: arm-right-wave 0.5s infinite ease-in-out;
+      }
+      .left-leg-dance {
+        transform-origin: 4px 18px;
+        animation: leg-left-kick 0.5s infinite ease-in-out;
+      }
+      .right-leg-dance {
+        transform-origin: 10px 18px;
+        animation: leg-right-kick 0.5s infinite ease-in-out;
+      }
+      .dance-eyes {
+        animation: happy-blink 2s infinite;
+      }
+      .music-note1 {
+        animation: float-note 1.5s infinite ease-out;
+      }
+      .music-note2 {
+        animation: float-note 1.5s infinite ease-out 0.5s;
+      }
+      @keyframes dance-bounce {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        25% { transform: translateY(-2px) rotate(-5deg); }
+        75% { transform: translateY(-2px) rotate(5deg); }
+      }
+      @keyframes shadow-pulse {
+        0%, 100% { transform: scaleX(1); opacity: 0.5; }
+        50% { transform: scaleX(0.7); opacity: 0.3; }
+      }
+      @keyframes arm-left-wave {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(-45deg); }
+      }
+      @keyframes arm-right-wave {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(45deg); }
+      }
+      @keyframes leg-left-kick {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(-15deg); }
+      }
+      @keyframes leg-right-kick {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(15deg); }
+      }
+      @keyframes happy-blink {
+        0%, 42%, 58%, 100% { transform: scaleY(1); }
+        50% { transform: scaleY(0.1); }
+      }
+      @keyframes float-note {
+        0% { opacity: 1; transform: translate(0, 0); }
+        100% { opacity: 0; transform: translate(2px, -6px); }
+      }
+    </style>
+  </defs>
+  <!-- Shadow -->
+  <rect class="dance-shadow" x="3" y="21" width="9" height="1" fill="#000" opacity="0.5"/>
+  <!-- Music notes -->
+  <g fill="#FFD700">
+    <rect class="music-note1" x="14" y="3" width="1" height="3"/>
+    <rect class="music-note1" x="15" y="2" width="1" height="2"/>
+    <rect class="music-note2" x="1" y="2" width="1" height="3"/>
+    <rect class="music-note2" x="0" y="1" width="1" height="2"/>
+  </g>
+  <!-- Body -->
+  <g class="dance-body">
+    <!-- Legs -->
+    <g fill="#DE886D">
+      <g class="left-leg-dance">
+        <rect x="3" y="18" width="1" height="2"/>
+        <rect x="5" y="18" width="1" height="2"/>
+      </g>
+      <g class="right-leg-dance">
+        <rect x="9" y="18" width="1" height="2"/>
+        <rect x="11" y="18" width="1" height="2"/>
+      </g>
+      <!-- Torso -->
+      <rect x="2" y="9" width="11" height="9"/>
+      <!-- Arms -->
+      <g class="left-arm-dance">
+        <rect x="0" y="11" width="2" height="2"/>
+      </g>
+      <g class="right-arm-dance">
+        <rect x="13" y="11" width="2" height="2"/>
+      </g>
+    </g>
+    <!-- Happy eyes (curved) -->
+    <g class="dance-eyes" fill="#000">
+      <rect x="5" y="11" width="1" height="1"/>
+      <rect x="4" y="10" width="1" height="1"/>
+      <rect x="6" y="10" width="1" height="1"/>
+      <rect x="11" y="11" width="1" height="1"/>
+      <rect x="10" y="10" width="1" height="1"/>
+      <rect x="12" y="10" width="1" height="1"/>
+    </g>
+    <!-- Smile -->
+    <g fill="#000">
+      <rect x="6" y="14" width="1" height="1"/>
+      <rect x="7" y="15" width="1" height="1"/>
+      <rect x="8" y="15" width="1" height="1"/>
+      <rect x="9" y="14" width="1" height="1"/>
+    </g>
+  </g>
+</svg>

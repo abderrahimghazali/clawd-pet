@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 26" width="120" height="156">
+  <defs>
+    <style>
+      .body-sway {
+        transform-origin: 7.5px 23px;
+        animation: sway 4s infinite ease-in-out;
+      }
+      .shadow-sway {
+        transform-origin: 7.5px 23.5px;
+        animation: shadow-shift 4s infinite ease-in-out;
+      }
+      .arm-tap {
+        transform-origin: 14px 18px;
+        animation: tap-chin 0.8s infinite alternate ease-in-out;
+      }
+      .eyes-think {
+        transform-origin: 7.5px 15px;
+        animation: blink-think 4s infinite;
+      }
+      .dot { opacity: 0; }
+      .d1 { animation: load-dot-1 2s infinite; }
+      .d2 { animation: load-dot-2 2s infinite; }
+      .d3 { animation: load-dot-3 2s infinite; }
+      @keyframes sway {
+        0%, 100% { transform: rotate(0deg); }
+        25% { transform: rotate(-3deg); }
+        75% { transform: rotate(3deg); }
+      }
+      @keyframes shadow-shift {
+        0%, 100% { transform: scaleX(1); }
+        50% { transform: scaleX(0.9); }
+      }
+      @keyframes tap-chin {
+        0% { transform: rotate(-125deg); }
+        100% { transform: rotate(-145deg); }
+      }
+      @keyframes blink-think {
+        0%, 46%, 54%, 100% { transform: scaleY(1); }
+        50% { transform: scaleY(0.1); }
+      }
+      @keyframes load-dot-1 {
+        0%, 20% { opacity: 0; } 21%, 100% { opacity: 1; }
+      }
+      @keyframes load-dot-2 {
+        0%, 40% { opacity: 0; } 41%, 100% { opacity: 1; }
+      }
+      @keyframes load-dot-3 {
+        0%, 60% { opacity: 0; } 61%, 100% { opacity: 1; }
+      }
+    </style>
+  </defs>
+  <rect class="shadow-sway" x="3" y="23" width="9" height="1" fill="#000" opacity="0.5"/>
+  <!-- Thought bubble -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <rect x="8" y="2" width="8" height="7"/>
+    <rect x="7" y="3" width="10" height="5"/>
+    <rect x="9" y="1" width="6" height="9"/>
+    <rect x="8" y="8" width="2" height="2"/>
+    <rect x="7" y="10" width="1" height="1"/>
+  </g>
+  <g fill="#0082FC">
+    <rect class="dot d1" x="8.5" y="5" width="1" height="1"/>
+    <rect class="dot d2" x="11.5" y="5" width="1" height="1"/>
+    <rect class="dot d3" x="14.5" y="5" width="1" height="1"/>
+  </g>
+  <!-- Body -->
+  <g class="body-sway">
+    <g fill="#DE886D">
+      <rect x="3" y="21" width="1" height="2"/>
+      <rect x="5" y="21" width="1" height="2"/>
+      <rect x="9" y="21" width="1" height="2"/>
+      <rect x="11" y="21" width="1" height="2"/>
+      <rect x="2" y="14" width="11" height="7"/>
+      <rect x="0" y="17" width="2" height="2"/>
+      <g class="arm-tap">
+        <rect x="13" y="17" width="2" height="2"/>
+      </g>
+    </g>
+    <g class="eyes-think" fill="#000">
+      <rect x="5" y="15" width="1" height="2"/>
+      <rect x="11" y="15" width="1" height="2"/>
+    </g>
+  </g>
+</svg>
