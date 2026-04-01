@@ -12,6 +12,9 @@ Animated pixel-art Clawd mascot SVGs for GitHub READMEs and profiles.
 | <img src="./clawd-working-debugger.svg" width="80"><br>debugger | <img src="./clawd-working-confused.svg" width="80"><br>confused | <img src="./clawd-working-overheated.svg" width="80"><br>overheated | <img src="./clawd-working-beacon.svg" width="80"><br>beacon |
 | <img src="./clawd-dizzy.svg" width="80"><br>dizzy | <img src="./clawd-disconnected.svg" width="80"><br>disconnected | <img src="./clawd-notification.svg" width="80"><br>notification | <img src="./clawd-going-away.svg" width="80"><br>going away |
 | <img src="./clawd-crab-walking.svg" width="80"><br>crab walking | <img src="./clawd-mini-clawd.svg" width="80"><br>mini clawd | <img src="./mini-crab-typing.svg" width="80"><br>mini crab | <img src="./clawd-static-base.svg" width="80"><br>static |
+| <img src="./clawd-waving.svg" width="80"><br>waving | <img src="./clawd-celebrating.svg" width="80"><br>celebrating | <img src="./clawd-coffee.svg" width="80"><br>coffee | <img src="./clawd-rocket.svg" width="80"><br>rocket |
+| <img src="./clawd-error.svg" width="80"><br>error | <img src="./clawd-loading.svg" width="80"><br>loading | <img src="./clawd-running.svg" width="80"><br>running | <img src="./clawd-meditating.svg" width="80"><br>meditating |
+| <img src="./clawd-reading.svg" width="80"><br>reading | <img src="./clawd-lifting.svg" width="80"><br>lifting | | |
 
 ## Usage
 
@@ -47,6 +50,16 @@ Reference the raw URL in your README:
 - `clawd-mini-clawd.svg` — Tiny version
 - `mini-crab-typing.svg` — Mini crab at keyboard
 - `clawd-static-base.svg` — Static pose (no animation)
+- `clawd-waving.svg` — Friendly greeting wave
+- `clawd-celebrating.svg` — Jumping with confetti (deploy success, PR merged)
+- `clawd-coffee.svg` — Sipping coffee with steam
+- `clawd-rocket.svg` — Launching with flames and stars
+- `clawd-error.svg` — Panic mode with red flash and X eyes
+- `clawd-loading.svg` — Waiting with orbiting dots
+- `clawd-running.svg` — Sprinting with dust clouds
+- `clawd-meditating.svg` — Zen floating with aura glow
+- `clawd-reading.svg` — Reading a book with page flips
+- `clawd-lifting.svg` — Lifting barbell with sweat drops
 
 ## License
 
