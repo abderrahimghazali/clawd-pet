@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -6 20 24" width="500" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -25 45 45" width="500" height="500">
   <defs>
     <style>
       .lift-body {
@@ -10,15 +10,17 @@
         animation: lift-shadow 2s infinite ease-in-out;
       }
       .barbell {
-        transform-origin: 7.5px 4px;
         animation: barbell-lift 2s infinite ease-in-out;
       }
       .lift-arms {
-        transform-origin: 7.5px 8px;
         animation: arms-lift 2s infinite ease-in-out;
       }
       .sweat1 { animation: sweat-drop 1.5s infinite ease-in 0.5s; }
       .sweat2 { animation: sweat-drop 1.5s infinite ease-in 1s; }
+      .lift-eyes {
+        transform-origin: 7.5px 9px;
+        animation: lift-strain 2s infinite ease-in-out;
+      }
       @keyframes lift-press {
         0%, 100% { transform: scaleY(1); }
         30% { transform: scaleY(0.92); }
@@ -42,12 +44,16 @@
         30% { opacity: 0.8; }
         100% { opacity: 0; transform: translate(1px, 4px); }
       }
+      @keyframes lift-strain {
+        0%, 100% { transform: scaleY(1); }
+        30%, 50% { transform: scaleY(0.5); }
+      }
     </style>
   </defs>
   <rect class="lift-shadow" x="3" y="15" width="9" height="1" fill="#000" opacity="0.5"/>
   <!-- Sweat drops -->
-  <rect class="sweat1" x="14" y="5" width="1" height="1" fill="#44BBFF"/>
-  <rect class="sweat2" x="0" y="6" width="1" height="1" fill="#44BBFF"/>
+  <rect class="sweat1" x="14" y="5" width="1" height="1" fill="#40C4FF"/>
+  <rect class="sweat2" x="0" y="6" width="1" height="1" fill="#40C4FF"/>
   <!-- Barbell -->
   <g class="barbell">
     <rect x="-1" y="-2" width="3" height="4" fill="#888"/>
@@ -67,23 +73,10 @@
       <rect x="0" y="5" width="2" height="3"/>
       <rect x="13" y="5" width="2" height="3"/>
     </g>
-    <!-- Straining eyes -->
-    <g fill="#000">
+    <!-- Strained squinting eyes -->
+    <g class="lift-eyes" fill="#000">
       <rect x="4" y="8" width="2" height="1"/>
       <rect x="10" y="8" width="2" height="1"/>
-    </g>
-    <!-- Gritting teeth -->
-    <g fill="#000">
-      <rect x="5" y="10" width="1" height="1"/>
-      <rect x="6" y="11" width="1" height="1"/>
-      <rect x="7" y="10" width="1" height="1"/>
-      <rect x="8" y="11" width="1" height="1"/>
-      <rect x="9" y="10" width="1" height="1"/>
-    </g>
-    <!-- Red face -->
-    <g fill="#CC4444" opacity="0.25">
-      <rect x="3" y="9" width="2" height="2"/>
-      <rect x="11" y="9" width="2" height="2"/>
     </g>
   </g>
 </svg>

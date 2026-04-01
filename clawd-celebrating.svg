@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -12 24 28" width="500" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -25 45 45" width="500" height="500">
   <defs>
     <style>
       .cele-body {
@@ -10,12 +10,16 @@
         animation: cele-shadow 0.8s infinite ease-in-out;
       }
       .cele-arm-l {
-        transform-origin: 1px 9px;
+        transform-origin: 1px 10px;
         animation: cele-arm-l 0.8s infinite ease-in-out;
       }
       .cele-arm-r {
-        transform-origin: 14px 9px;
+        transform-origin: 14px 10px;
         animation: cele-arm-r 0.8s infinite ease-in-out;
+      }
+      .cele-eyes {
+        transform-origin: 7.5px 9px;
+        animation: cele-blink 2s infinite;
       }
       .confetti1 { animation: conf-fall-1 1.5s infinite linear; }
       .confetti2 { animation: conf-fall-2 1.8s infinite linear 0.3s; }
@@ -42,6 +46,10 @@
       @keyframes cele-arm-r {
         0%, 100% { transform: rotate(0deg); }
         50% { transform: rotate(-60deg); }
+      }
+      @keyframes cele-blink {
+        0%, 46%, 54%, 100% { transform: scaleY(1); }
+        50% { transform: scaleY(0.1); }
       }
       @keyframes conf-fall-1 {
         0% { transform: translate(0, -10px) rotate(0deg); opacity: 1; }
@@ -70,7 +78,6 @@
     </style>
   </defs>
   <rect class="cele-shadow" x="3" y="15" width="9" height="1" fill="#000" opacity="0.5"/>
-  <!-- Confetti -->
   <rect class="confetti1" x="-1" y="-5" width="1" height="1" fill="#FF4444"/>
   <rect class="confetti2" x="4" y="-5" width="1" height="1" fill="#FFD700"/>
   <rect class="confetti3" x="8" y="-5" width="1" height="1" fill="#44FF44"/>
@@ -84,21 +91,12 @@
       <rect x="9" y="13" width="1" height="2"/>
       <rect x="11" y="13" width="1" height="2"/>
       <rect x="2" y="6" width="11" height="7"/>
-      <g class="cele-arm-l"><rect x="0" y="8" width="2" height="2"/></g>
-      <g class="cele-arm-r"><rect x="13" y="8" width="2" height="2"/></g>
+      <g class="cele-arm-l"><rect x="0" y="9" width="2" height="2"/></g>
+      <g class="cele-arm-r"><rect x="13" y="9" width="2" height="2"/></g>
     </g>
-    <!-- Happy squint eyes -->
-    <g fill="#000">
-      <rect x="4" y="9" width="1" height="1"/>
-      <rect x="5" y="8" width="1" height="1"/>
-      <rect x="6" y="9" width="1" height="1"/>
-      <rect x="10" y="9" width="1" height="1"/>
-      <rect x="11" y="8" width="1" height="1"/>
-      <rect x="12" y="9" width="1" height="1"/>
-    </g>
-    <!-- Open mouth -->
-    <g fill="#000">
-      <rect x="6" y="11" width="3" height="2"/>
+    <g class="cele-eyes" fill="#000">
+      <rect x="4" y="8" width="1" height="2"/>
+      <rect x="10" y="8" width="1" height="2"/>
     </g>
   </g>
 </svg>
