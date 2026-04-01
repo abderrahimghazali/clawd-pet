@@ -1,6 +1,6 @@
 # Clawd Pet
 
-Animated pixel-art Clawd mascot SVGs for GitHub READMEs and profiles. All animations from [clawd-tank](https://github.com/marciogranzotto/clawd-tank) by [@marciogranzotto](https://github.com/marciogranzotto).
+Animated pixel-art Clawd mascot SVGs for GitHub READMEs and profiles.
 
 ## Preview
 
@@ -47,10 +47,6 @@ Reference the raw URL in your README:
 - `clawd-mini-clawd.svg` — Tiny version
 - `mini-crab-typing.svg` — Mini crab at keyboard
 - `clawd-static-base.svg` — Static pose (no animation)
-
-## Credits
-
-All SVG animations by [@marciogranzotto](https://github.com/marciogranzotto) from [clawd-tank](https://github.com/marciogranzotto/clawd-tank).
 
 ## License
 
