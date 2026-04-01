@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 12 12" width="200" height="200">
+  <defs>
+    <style>
+      .mcb { animation: mc-bounce .35s infinite alternate ease-in-out; }
+      .mc-al { transform-origin: .3px 4.5px; animation: mc-tl .2s infinite ease-in-out; }
+      .mc-ar { transform-origin: 6.2px 4.5px; animation: mc-tr .18s infinite ease-in-out; }
+      .mc-data { opacity: 0; animation: mc-float 1.2s infinite linear; }
+      @keyframes mc-bounce { 0% { transform: translateY(0); } 100% { transform: translateY(-.6px); } }
+      @keyframes mc-tl { 0%,100% { transform: rotate(0); } 50% { transform: rotate(35deg); } }
+      @keyframes mc-tr { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-35deg); } }
+      @keyframes mc-float { 0% { transform: translateY(0) scale(.4); opacity: 0; } 20% { opacity: .7; } 100% { transform: translateY(-5px) scale(.7); opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- Shadow -->
+  <rect x="1.5" y="8.5" width="4" height=".5" fill="#000" opacity=".25"/>
+
+  <!-- Animated body -->
+  <g class="mcb">
+    <!-- Legs -->
+    <g fill="#DE886D">
+      <rect x="1.5" y="7" width=".8" height="1.5"/>
+      <rect x="2.7" y="7" width=".8" height="1.5"/>
+      <rect x="3.8" y="7" width=".8" height="1.5"/>
+      <rect x="5.0" y="7" width=".8" height="1.5"/>
+    </g>
+
+    <!-- Body -->
+    <rect x="1" y="3.5" width="5.3" height="3.5" fill="#DE886D"/>
+
+    <!-- Arms (typing) -->
+    <g class="mc-al"><rect x="-.5" y="4" width="1.3" height="1.2" fill="#DE886D"/></g>
+    <g class="mc-ar"><rect x="6.5" y="4" width="1.3" height="1.2" fill="#DE886D"/></g>
+
+    <!-- Eyes -->
+    <rect x="2.2" y="4.2" width=".8" height="1" fill="#000"/>
+    <rect x="4.3" y="4.2" width=".8" height="1" fill="#000"/>
+  </g>
+
+  <!-- Floating data particle -->
+  <rect class="mc-data" x="3" y="1.5" width="1.2" height="1.2" fill="#0082FC"/>
+</svg>
