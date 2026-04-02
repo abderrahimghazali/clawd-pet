@@ -157,7 +157,7 @@ export default function Home() {
           <p className="text-text-secondary text-sm">
             Need a specific pet?{' '}
             <a
-              href="https://github.com/abderrahimghazali/clawd-pet/issues/new?labels=pet-request&title=Pet+request:+"
+              href="https://github.com/abderrahimghazali/clawd-pet/issues/new?template=pet-request.yml"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent hover:underline font-medium"

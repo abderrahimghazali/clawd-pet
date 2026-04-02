@@ -1,0 +1,41 @@
+name: Pet Request
+description: Request a new Clawd pet design
+title: "Pet request: "
+labels: ["pet-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Pet name
+      description: What should this pet be called?
+      placeholder: e.g. clawd-skateboard
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Emotions
+        - Activities
+        - Working States
+        - HTTP Status
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What should the pet look like? What animation would it have?
+      placeholder: Describe the pet, its mood, pose, accessories, and how it should animate...
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference (optional)
+      description: Any image, emoji, or link for inspiration?
+      placeholder: Drop a link or describe a visual reference
+    validations:
+      required: false
