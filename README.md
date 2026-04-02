@@ -1,3 +1,5 @@
+Animated pixel-art Clawd mascot SVGs for GitHub READMEs, profiles, and docs. Drop them anywhere with a single `<img>` tag.
+
 <table>
 <tr>
 <td align="center"><img src="./clawd-happy.svg" width="80"><br>happy</td>
@@ -62,8 +64,32 @@
 <tr>
 <td align="center"><img src="./clawd-star.svg" width="80"><br>star</td>
 <td align="center"><img src="./clawd-peeking.svg" width="80"><br>peeking</td>
-<td></td>
-<td></td>
+<td align="center"><img src="./clawd-crying.svg" width="80"><br>crying</td>
+<td align="center"><img src="./clawd-eating.svg" width="80"><br>eating</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-painting.svg" width="80"><br>painting</td>
+<td align="center"><img src="./clawd-fishing.svg" width="80"><br>fishing</td>
+<td align="center"><img src="./clawd-flying.svg" width="80"><br>flying</td>
+<td align="center"><img src="./clawd-fire.svg" width="80"><br>fire</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-detective.svg" width="80"><br>detective</td>
+<td align="center"><img src="./clawd-chef.svg" width="80"><br>chef</td>
+<td align="center"><img src="./clawd-skateboard.svg" width="80"><br>skateboard</td>
+<td align="center"><img src="./clawd-telescope.svg" width="80"><br>telescope</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-trophy.svg" width="80"><br>trophy</td>
+<td align="center"><img src="./clawd-umbrella.svg" width="80"><br>umbrella</td>
+<td align="center"><img src="./clawd-snow.svg" width="80"><br>snow</td>
+<td align="center"><img src="./clawd-battery-low.svg" width="80"><br>battery low</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-charging.svg" width="80"><br>charging</td>
+<td align="center"><img src="./clawd-gardening.svg" width="80"><br>gardening</td>
+<td align="center"><img src="./clawd-surfing.svg" width="80"><br>surfing</td>
+<td align="center"><img src="./clawd-scared.svg" width="80"><br>scared</td>
 </tr>
 </table>
 

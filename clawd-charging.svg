@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -25 45 45" width="500" height="500">
+  <defs>
+    <style>
+      .charge-body { transform-origin: 7.5px 15px; animation: charge-pulse 1.5s infinite ease-in-out; }
+      .charge-shadow { transform-origin: 7.5px 15.5px; animation: charge-shadow 1.5s infinite ease-in-out; }
+      .charge-eyes { transform-origin: 7.5px 9px; animation: charge-blink 3s infinite; }
+      .bolt { animation: bolt-flash 0.8s infinite; }
+      .charge-ring1 { animation: ring-expand 1.5s infinite ease-out; }
+      .charge-ring2 { animation: ring-expand 1.5s infinite ease-out 0.5s; }
+      @keyframes charge-pulse { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(1.03) translateY(-1px); } }
+      @keyframes charge-shadow { 0%, 100% { transform: scaleX(1); opacity: 0.5; } 50% { transform: scaleX(0.85); opacity: 0.35; } }
+      @keyframes charge-blink { 0%, 46%, 54%, 100% { transform: scaleY(1); } 50% { transform: scaleY(0.1); } }
+      @keyframes bolt-flash { 0%, 60% { opacity: 1; } 30% { opacity: 0.4; } }
+      @keyframes ring-expand { 0% { transform: scale(0.5); opacity: 0.5; } 100% { transform: scale(1.5); opacity: 0; } }
+    </style>
+  </defs>
+  <rect class="charge-shadow" x="3" y="15" width="9" height="1" fill="#000" opacity="0.5"/>
+  <!-- Energy rings -->
+  <rect class="charge-ring1" x="1" y="4" width="13" height="12" fill="none" stroke="#44FF44" stroke-width="0.5" opacity="0"/>
+  <rect class="charge-ring2" x="0" y="3" width="15" height="14" fill="none" stroke="#44FF44" stroke-width="0.5" opacity="0"/>
+  <!-- Lightning bolt -->
+  <g class="bolt" fill="#FFD700">
+    <rect x="8" y="-4" width="2" height="2"/>
+    <rect x="7" y="-2" width="2" height="2"/>
+    <rect x="6" y="0" width="4" height="1"/>
+    <rect x="8" y="1" width="2" height="2"/>
+    <rect x="7" y="3" width="2" height="2"/>
+  </g>
+  <g class="charge-body">
+    <g fill="#DE886D">
+      <rect x="3" y="13" width="1" height="2"/><rect x="5" y="13" width="1" height="2"/>
+      <rect x="9" y="13" width="1" height="2"/><rect x="11" y="13" width="1" height="2"/>
+      <rect x="2" y="6" width="11" height="7"/>
+      <rect x="0" y="9" width="2" height="2"/><rect x="13" y="9" width="2" height="2"/>
+    </g>
+    <g class="charge-eyes" fill="#000">
+      <rect x="4" y="8" width="1" height="2"/><rect x="10" y="8" width="1" height="2"/>
+    </g>
+  </g>
+</svg>
