@@ -70,6 +70,10 @@ Or copy the SVG source from the gallery and inline it in your project for full a
 | Working | typing, wizard, juggling, debugger, thinking, building... |
 | HTTP Status | 400, 401, 403, 404, 408, 429, 500, 502, 503 |
 
+## Request a pet
+
+Need a Clawd pet that doesn't exist yet? [Open a pet request issue](https://github.com/abderrahimghazali/clawd-pet/issues/new?template=pet-request.yml) and describe what you'd like.
+
 ## License
 
 MIT
