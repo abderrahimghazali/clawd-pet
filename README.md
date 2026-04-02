@@ -89,4 +89,4 @@ Need a Clawd pet that doesn't exist yet? [Open a pet request issue](https://gith
 
 ## License
 
-MIT
+[MIT](LICENSE)
