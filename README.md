@@ -6,20 +6,20 @@ Browse, search, copy, and download them all from the interactive gallery built w
 
 <table>
 <tr>
-<td align="center"><img src="./clawd-happy.svg" width="80"><br>happy</td>
-<td align="center"><img src="./clawd-sleeping.svg" width="80"><br>sleeping</td>
-<td align="center"><img src="./clawd-coding.svg" width="80"><br>coding</td>
-<td align="center"><img src="./clawd-astronaut.svg" width="80"><br>astronaut</td>
-<td align="center"><img src="./clawd-ninja.svg" width="80"><br>ninja</td>
-<td align="center"><img src="./clawd-dancing.svg" width="80"><br>dancing</td>
+<td align="center"><img src="./public/pets/clawd-happy.svg" width="80"><br>happy</td>
+<td align="center"><img src="./public/pets/clawd-sleeping.svg" width="80"><br>sleeping</td>
+<td align="center"><img src="./public/pets/clawd-coding.svg" width="80"><br>coding</td>
+<td align="center"><img src="./public/pets/clawd-astronaut.svg" width="80"><br>astronaut</td>
+<td align="center"><img src="./public/pets/clawd-ninja.svg" width="80"><br>ninja</td>
+<td align="center"><img src="./public/pets/clawd-dancing.svg" width="80"><br>dancing</td>
 </tr>
 <tr>
-<td align="center"><img src="./clawd-working-typing.svg" width="80"><br>typing</td>
-<td align="center"><img src="./clawd-working-wizard.svg" width="80"><br>wizard</td>
-<td align="center"><img src="./clawd-rocket.svg" width="80"><br>rocket</td>
-<td align="center"><img src="./clawd-cool.svg" width="80"><br>cool</td>
-<td align="center"><img src="./clawd-love.svg" width="80"><br>love</td>
-<td align="center"><img src="./clawd-celebrating.svg" width="80"><br>celebrating</td>
+<td align="center"><img src="./public/pets/clawd-working-typing.svg" width="80"><br>typing</td>
+<td align="center"><img src="./public/pets/clawd-working-wizard.svg" width="80"><br>wizard</td>
+<td align="center"><img src="./public/pets/clawd-rocket.svg" width="80"><br>rocket</td>
+<td align="center"><img src="./public/pets/clawd-cool.svg" width="80"><br>cool</td>
+<td align="center"><img src="./public/pets/clawd-love.svg" width="80"><br>love</td>
+<td align="center"><img src="./public/pets/clawd-celebrating.svg" width="80"><br>celebrating</td>
 </tr>
 </table>
 
@@ -56,7 +56,7 @@ Open [http://localhost:3000](http://localhost:3000).
 Embed any pet directly as an image:
 
 ```markdown
-<img src="https://raw.githubusercontent.com/abderrahimghazali/clawd-pet/main/clawd-waving.svg" width="50">
+<img src="https://raw.githubusercontent.com/abderrahimghazali/clawd-pet/main/public/pets/clawd-waving.svg" width="50">
 ```
 
 Or copy the SVG source from the gallery and inline it in your project for full animation support.
