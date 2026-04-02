@@ -1,71 +1,77 @@
-| | | | |
-|:---:|:---:|:---:|:---:|
-| <img src="./clawd-happy.svg" width="80"><br>happy | <img src="./clawd-sleeping.svg" width="80"><br>sleeping | <img src="./clawd-idle-living.svg" width="80"><br>idle | <img src="./clawd-working-thinking.svg" width="80"><br>thinking |
-| <img src="./clawd-working-typing.svg" width="80"><br>typing | <img src="./clawd-working-wizard.svg" width="80"><br>wizard | <img src="./clawd-working-juggling.svg" width="80"><br>juggling | <img src="./clawd-working-conducting.svg" width="80"><br>conducting |
-| <img src="./clawd-working-building.svg" width="80"><br>building | <img src="./clawd-working-carrying.svg" width="80"><br>carrying | <img src="./clawd-working-pushing.svg" width="80"><br>pushing | <img src="./clawd-working-sweeping.svg" width="80"><br>sweeping |
-| <img src="./clawd-working-debugger.svg" width="80"><br>debugger | <img src="./clawd-working-confused.svg" width="80"><br>confused | <img src="./clawd-working-overheated.svg" width="80"><br>overheated | <img src="./clawd-working-beacon.svg" width="80"><br>beacon |
-| <img src="./clawd-dizzy.svg" width="80"><br>dizzy | <img src="./clawd-disconnected.svg" width="80"><br>disconnected | <img src="./clawd-notification.svg" width="80"><br>notification | <img src="./clawd-going-away.svg" width="80"><br>going away |
-| <img src="./clawd-crab-walking.svg" width="80"><br>crab walking | <img src="./clawd-mini-clawd.svg" width="80"><br>mini clawd | <img src="./mini-crab-typing.svg" width="80"><br>mini crab | <img src="./clawd-static-base.svg" width="80"><br>static |
-| <img src="./clawd-waving.svg" width="80"><br>waving | <img src="./clawd-celebrating.svg" width="80"><br>celebrating | <img src="./clawd-coffee.svg" width="80"><br>coffee | <img src="./clawd-rocket.svg" width="80"><br>rocket |
-| <img src="./clawd-error.svg" width="80"><br>error | <img src="./clawd-loading.svg" width="80"><br>loading | <img src="./clawd-running.svg" width="80"><br>running | <img src="./clawd-meditating.svg" width="80"><br>meditating |
-| <img src="./clawd-reading.svg" width="80"><br>reading | <img src="./clawd-lifting.svg" width="80"><br>lifting | <img src="./clawd-coding.svg" width="80"><br>coding | <img src="./clawd-shipping.svg" width="80"><br>shipping |
-| <img src="./clawd-idea.svg" width="80"><br>idea | <img src="./clawd-love.svg" width="80"><br>love | <img src="./clawd-ninja.svg" width="80"><br>ninja | <img src="./clawd-gaming.svg" width="80"><br>gaming |
-| <img src="./clawd-music.svg" width="80"><br>music | <img src="./clawd-security.svg" width="80"><br>security | <img src="./clawd-star.svg" width="80"><br>star | <img src="./clawd-peeking.svg" width="80"><br>peeking |
+<table>
+<tr>
+<td align="center"><img src="./clawd-happy.svg" width="80"><br>happy</td>
+<td align="center"><img src="./clawd-sleeping.svg" width="80"><br>sleeping</td>
+<td align="center"><img src="./clawd-idle-living.svg" width="80"><br>idle</td>
+<td align="center"><img src="./clawd-working-thinking.svg" width="80"><br>thinking</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-working-typing.svg" width="80"><br>typing</td>
+<td align="center"><img src="./clawd-working-wizard.svg" width="80"><br>wizard</td>
+<td align="center"><img src="./clawd-working-juggling.svg" width="80"><br>juggling</td>
+<td align="center"><img src="./clawd-working-conducting.svg" width="80"><br>conducting</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-working-building.svg" width="80"><br>building</td>
+<td align="center"><img src="./clawd-working-carrying.svg" width="80"><br>carrying</td>
+<td align="center"><img src="./clawd-working-pushing.svg" width="80"><br>pushing</td>
+<td align="center"><img src="./clawd-working-sweeping.svg" width="80"><br>sweeping</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-working-debugger.svg" width="80"><br>debugger</td>
+<td align="center"><img src="./clawd-working-confused.svg" width="80"><br>confused</td>
+<td align="center"><img src="./clawd-working-overheated.svg" width="80"><br>overheated</td>
+<td align="center"><img src="./clawd-working-beacon.svg" width="80"><br>beacon</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-dizzy.svg" width="80"><br>dizzy</td>
+<td align="center"><img src="./clawd-disconnected.svg" width="80"><br>disconnected</td>
+<td align="center"><img src="./clawd-notification.svg" width="80"><br>notification</td>
+<td align="center"><img src="./clawd-going-away.svg" width="80"><br>going away</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-crab-walking.svg" width="80"><br>crab walking</td>
+<td align="center"><img src="./clawd-static-base.svg" width="80"><br>static</td>
+<td align="center"><img src="./clawd-waving.svg" width="80"><br>waving</td>
+<td align="center"><img src="./clawd-celebrating.svg" width="80"><br>celebrating</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-coffee.svg" width="80"><br>coffee</td>
+<td align="center"><img src="./clawd-rocket.svg" width="80"><br>rocket</td>
+<td align="center"><img src="./clawd-error.svg" width="80"><br>error</td>
+<td align="center"><img src="./clawd-loading.svg" width="80"><br>loading</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-running.svg" width="80"><br>running</td>
+<td align="center"><img src="./clawd-meditating.svg" width="80"><br>meditating</td>
+<td align="center"><img src="./clawd-reading.svg" width="80"><br>reading</td>
+<td align="center"><img src="./clawd-lifting.svg" width="80"><br>lifting</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-coding.svg" width="80"><br>coding</td>
+<td align="center"><img src="./clawd-shipping.svg" width="80"><br>shipping</td>
+<td align="center"><img src="./clawd-idea.svg" width="80"><br>idea</td>
+<td align="center"><img src="./clawd-love.svg" width="80"><br>love</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-ninja.svg" width="80"><br>ninja</td>
+<td align="center"><img src="./clawd-gaming.svg" width="80"><br>gaming</td>
+<td align="center"><img src="./clawd-music.svg" width="80"><br>music</td>
+<td align="center"><img src="./clawd-security.svg" width="80"><br>security</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-star.svg" width="80"><br>star</td>
+<td align="center"><img src="./clawd-peeking.svg" width="80"><br>peeking</td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 ## Usage
 
-Reference the raw URL in your README:
-
 ```markdown
-<img src="https://raw.githubusercontent.com/abderrahimghazali/clawd-pet/main/clawd-happy.svg" width="50">
+<img src="https://raw.githubusercontent.com/abderrahimghazali/clawd-pet/main/clawd-waving.svg" width="50">
 ```
-
-## Available variants
-
-- `clawd-happy.svg` — Bouncing with sparkles and waving arms
-- `clawd-sleeping.svg` — Splooted on the floor with floating Zzz's
-- `clawd-idle-living.svg` — Idle breathing animation
-- `clawd-working-thinking.svg` — Thinking with animated thought bubble
-- `clawd-working-typing.svg` — Typing at keyboard
-- `clawd-working-wizard.svg` — Casting spells
-- `clawd-working-juggling.svg` — Juggling tasks
-- `clawd-working-conducting.svg` — Conducting an orchestra
-- `clawd-working-building.svg` — Building/constructing
-- `clawd-working-carrying.svg` — Carrying heavy load
-- `clawd-working-pushing.svg` — Pushing forward
-- `clawd-working-sweeping.svg` — Sweeping/cleaning up
-- `clawd-working-debugger.svg` — Debugging with magnifying glass
-- `clawd-working-confused.svg` — Confused and lost
-- `clawd-working-overheated.svg` — Overheating from hard work
-- `clawd-working-beacon.svg` — Sending signals
-- `clawd-dizzy.svg` — Dizzy and disoriented
-- `clawd-disconnected.svg` — Connection lost
-- `clawd-notification.svg` — Alert/notification
-- `clawd-going-away.svg` — Walking away
-- `clawd-crab-walking.svg` — Crab walking sideways
-- `clawd-mini-clawd.svg` — Tiny version
-- `mini-crab-typing.svg` — Mini crab at keyboard
-- `clawd-static-base.svg` — Static pose (no animation)
-- `clawd-waving.svg` — Friendly greeting wave
-- `clawd-celebrating.svg` — Jumping with confetti (deploy success, PR merged)
-- `clawd-coffee.svg` — Sipping coffee with steam
-- `clawd-rocket.svg` — Launching with flames and stars
-- `clawd-error.svg` — Panic mode with red flash and X eyes
-- `clawd-loading.svg` — Waiting with orbiting dots
-- `clawd-running.svg` — Sprinting with dust clouds
-- `clawd-meditating.svg` — Zen floating with aura glow
-- `clawd-reading.svg` — Reading a book with page flips
-- `clawd-lifting.svg` — Lifting barbell with sweat drops
-- `clawd-coding.svg` — Coding on a laptop with floating brackets
-- `clawd-shipping.svg` — Walking with a package on head
-- `clawd-idea.svg` — Lightbulb moment with glowing rays
-- `clawd-love.svg` — Swaying with floating pixel hearts
-- `clawd-ninja.svg` — Headband, shuriken, and slash attack
-- `clawd-gaming.svg` — Holding controller with screen glow
-- `clawd-music.svg` — Grooving with headphones and floating notes
-- `clawd-security.svg` — Standing guard with shield and scan line
-- `clawd-star.svg` — Floating with orbiting star and twinkles
-- `clawd-peeking.svg` — Peeking up from behind a ledge
 
 ## License
 
