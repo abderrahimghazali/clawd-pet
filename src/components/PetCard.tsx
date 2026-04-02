@@ -41,7 +41,7 @@ export default function PetCard({ pet, index, onCopy, onDownload }: PetCardProps
           {/* Hover overlay with actions */}
           <div className="absolute inset-0 bg-bg-primary/60 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-200 flex items-center justify-center gap-3">
             <span className="px-3 py-1.5 rounded-lg bg-accent/90 text-bg-primary text-xs font-semibold">
-              Copy SVG
+              Copy Link
             </span>
             <button
               onClick={(e) => {

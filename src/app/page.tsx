@@ -27,10 +27,9 @@ export default function Home() {
 
   const handleCopy = useCallback(async (pet: Pet) => {
     try {
-      const res = await fetch(`/pets/${pet.fileName}`);
-      const svgText = await res.text();
-      await navigator.clipboard.writeText(svgText);
-      setToast({ visible: true, message: `Copied ${pet.name} SVG!` });
+      const cdnUrl = `https://cdn.jsdelivr.net/gh/abderrahimghazali/clawd-pet@main/public/pets/${pet.fileName}`;
+      await navigator.clipboard.writeText(cdnUrl);
+      setToast({ visible: true, message: `Copied ${pet.name} CDN link!` });
     } catch {
       setToast({ visible: true, message: 'Failed to copy' });
     }
