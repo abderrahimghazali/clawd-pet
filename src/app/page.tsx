@@ -151,6 +151,23 @@ export default function Home() {
         </AnimatePresence>
       </section>
 
+      {/* Request CTA */}
+      <section className="px-4 pb-20 text-center">
+        <div className="inline-flex flex-col items-center gap-2 px-6 py-5 rounded-2xl bg-bg-secondary/50 border border-border">
+          <p className="text-text-secondary text-sm">
+            Need a specific pet?{' '}
+            <a
+              href="https://github.com/abderrahimghazali/clawd-pet/issues/new?labels=pet-request&title=Pet+request:+"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:underline font-medium"
+            >
+              Open an issue on GitHub
+            </a>
+          </p>
+        </div>
+      </section>
+
       {/* Toast */}
       <Toast
         message={toast.message}
