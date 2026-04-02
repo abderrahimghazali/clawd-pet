@@ -66,13 +66,19 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Use a pet
 
-Embed any pet directly as an image:
+Embed any pet via CDN:
 
-```markdown
-<img src="https://raw.githubusercontent.com/abderrahimghazali/clawd-pet/main/public/pets/clawd-waving.svg" width="50">
+```html
+<img src="https://cdn.jsdelivr.net/gh/abderrahimghazali/clawd-pet@main/public/pets/clawd-waving.svg" width="50">
 ```
 
 Or copy the SVG source from the gallery and inline it in your project for full animation support.
+
+All pets are available at:
+
+```
+https://cdn.jsdelivr.net/gh/abderrahimghazali/clawd-pet@main/public/pets/{name}.svg
+```
 
 ## Categories
 
