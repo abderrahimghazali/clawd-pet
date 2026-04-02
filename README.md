@@ -1,8 +1,21 @@
+<div align="center">
+
+<img src="./public/pets/clawd-cool.svg" width="120">
+
 # Clawd Pets
 
-90+ animated SVG pets with CSS-only motion — no JavaScript, no dependencies.
+**90+ animated SVG pets with CSS-only motion — no JavaScript, no dependencies.**
 
-Browse, search, copy, and download them all from the interactive gallery built with Next.js.
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/abderrahimghazali/clawd-pet?style=social)](https://github.com/abderrahimghazali/clawd-pet/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/abderrahimghazali/clawd-pet)](https://github.com/abderrahimghazali/clawd-pet/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/abderrahimghazali/clawd-pet/pulls)
+
+[Gallery](https://clawd-pet.vercel.app) · [Request a Pet](https://github.com/abderrahimghazali/clawd-pet/issues/new?template=pet-request.yml) · [Sponsor](https://github.com/sponsors/abderrahimghazali)
+
+</div>
+
+---
 
 <table>
 <tr>
@@ -23,7 +36,7 @@ Browse, search, copy, and download them all from the interactive gallery built w
 </tr>
 </table>
 
-...and 78 more! See them all in the gallery.
+...and 78 more! [See them all in the gallery →](https://clawd-pet.vercel.app)
 
 ## Gallery App
 
