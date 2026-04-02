@@ -1,4 +1,6 @@
-Animated pixel-art Clawd pet.
+# Clawd Pet
+
+Animated pixel-art Clawd pet. 62 unique SVG animations with CSS-only motion — no JavaScript, no dependencies.
 
 <table>
 <tr>
