@@ -1,4 +1,4 @@
-export type Category = 'all' | 'http-status' | 'emotions' | 'activities' | 'working';
+export type Category = 'all' | 'http-status' | 'emotions' | 'activities' | 'working' | 'seasonal';
 
 export interface Pet {
   slug: string;
@@ -34,6 +34,22 @@ const categoryMap: Record<string, Category> = {
   'scared': 'emotions',
   'shrug': 'emotions',
   'sick': 'emotions',
+  'surprised': 'emotions',
+  'yawning': 'emotions',
+  'embarrassed': 'emotions',
+  'confused': 'emotions',
+  'grumpy': 'emotions',
+  'hopeful': 'emotions',
+  'jealous': 'emotions',
+  // Seasonal / Holiday
+  'valentine': 'seasonal',
+  'halloween': 'seasonal',
+  'christmas': 'seasonal',
+  'new-year': 'seasonal',
+  'spring': 'seasonal',
+  'summer': 'seasonal',
+  'autumn': 'seasonal',
+  'winter': 'seasonal',
   // Working States
   'working-beacon': 'working',
   'working-building': 'working',
@@ -91,6 +107,10 @@ const petSlugs = [
   'clawd-working-juggling', 'clawd-working-overheated', 'clawd-working-pushing',
   'clawd-working-sweeping', 'clawd-working-thinking', 'clawd-working-typing',
   'clawd-working-wizard', 'clawd-yoga',
+  'clawd-surprised', 'clawd-yawning', 'clawd-embarrassed', 'clawd-confused',
+  'clawd-grumpy', 'clawd-hopeful', 'clawd-jealous',
+  'clawd-valentine', 'clawd-halloween', 'clawd-christmas', 'clawd-new-year',
+  'clawd-spring', 'clawd-summer', 'clawd-autumn', 'clawd-winter',
 ];
 
 export const pets: Pet[] = petSlugs.map(slug => ({
@@ -105,6 +125,7 @@ export const categories: { id: Category; label: string; emoji: string }[] = [
   { id: 'emotions', label: 'Emotions', emoji: '♡' },
   { id: 'activities', label: 'Activities', emoji: '⚡' },
   { id: 'working', label: 'Working', emoji: '⌨' },
+  { id: 'seasonal', label: 'Seasonal', emoji: '🍂' },
   { id: 'http-status', label: 'HTTP Status', emoji: '⟨/⟩' },
 ];
 
