@@ -118,7 +118,8 @@ export default function Home() {
       </section>
 
       {/* Gallery */}
-      <section className="px-4 sm:px-8 pb-20 pt-6 max-w-7xl mx-auto">
+      <section className="px-4 sm:px-8 pb-20 pt-6 max-w-7xl mx-auto" aria-label="Pet gallery">
+        <h2 className="sr-only">Browse Clawd Pet Collection</h2>
         <AnimatePresence mode="popLayout">
           {filteredPets.length > 0 ? (
             <motion.div
