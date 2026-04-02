@@ -1,6 +1,6 @@
 # Clawd Pet
 
-Animated pixel-art Clawd pet. 62 unique SVG animations with CSS-only motion — no JavaScript, no dependencies.
+Animated pixel-art Clawd pet. 84 unique SVG animations with CSS-only motion — no JavaScript, no dependencies.
 
 <table>
 <tr>
@@ -92,6 +92,42 @@ Animated pixel-art Clawd pet. 62 unique SVG animations with CSS-only motion — 
 <td align="center"><img src="./clawd-gardening.svg" width="80"><br>gardening</td>
 <td align="center"><img src="./clawd-surfing.svg" width="80"><br>surfing</td>
 <td align="center"><img src="./clawd-scared.svg" width="80"><br>scared</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-angry.svg" width="80"><br>angry</td>
+<td align="center"><img src="./clawd-laughing.svg" width="80"><br>laughing</td>
+<td align="center"><img src="./clawd-mindblown.svg" width="80"><br>mindblown</td>
+<td align="center"><img src="./clawd-cool.svg" width="80"><br>cool</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-sick.svg" width="80"><br>sick</td>
+<td align="center"><img src="./clawd-bored.svg" width="80"><br>bored</td>
+<td align="center"><img src="./clawd-facepalm.svg" width="80"><br>facepalm</td>
+<td align="center"><img src="./clawd-shrug.svg" width="80"><br>shrug</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-thumbsup.svg" width="80"><br>thumbs up</td>
+<td align="center"><img src="./clawd-thumbsdown.svg" width="80"><br>thumbs down</td>
+<td align="center"><img src="./clawd-clapping.svg" width="80"><br>clapping</td>
+<td align="center"><img src="./clawd-flexing.svg" width="80"><br>flexing</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-pirate.svg" width="80"><br>pirate</td>
+<td align="center"><img src="./clawd-astronaut.svg" width="80"><br>astronaut</td>
+<td align="center"><img src="./clawd-king.svg" width="80"><br>king</td>
+<td align="center"><img src="./clawd-dancing.svg" width="80"><br>dancing</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-yoga.svg" width="80"><br>yoga</td>
+<td align="center"><img src="./clawd-singing.svg" width="80"><br>singing</td>
+<td align="center"><img src="./clawd-birthday.svg" width="80"><br>birthday</td>
+<td align="center"><img src="./clawd-gift.svg" width="80"><br>gift</td>
+</tr>
+<tr>
+<td align="center"><img src="./clawd-money.svg" width="80"><br>money</td>
+<td align="center"><img src="./clawd-mail.svg" width="80"><br>mail</td>
+<td align="center"><img src="./clawd-rainbow.svg" width="80"><br>rainbow</td>
+<td align="center"><img src="./clawd-praying.svg" width="80"><br>praying</td>
 </tr>
 </table>
 
