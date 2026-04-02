@@ -62,7 +62,7 @@ Open [http://localhost:3000](http://localhost:3000).
 - [Next.js](https://nextjs.org) (App Router)
 - [Tailwind CSS](https://tailwindcss.com) v4
 - [Framer Motion](https://www.framer.com/motion/)
-- TypeScript
+- [TypeScript](https://www.typescriptlang.org)
 
 ## Use a pet
 
