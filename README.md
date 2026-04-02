@@ -1,4 +1,4 @@
-Animated pixel-art Clawd mascot SVGs for GitHub READMEs, profiles, and docs. Drop them anywhere with a single `<img>` tag.
+Animated pixel-art Clawd pet.
 
 <table>
 <tr>
