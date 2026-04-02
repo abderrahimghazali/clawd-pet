@@ -1,9 +1,3 @@
-# Clawd Pet
-
-Animated pixel-art Clawd mascot SVGs for GitHub READMEs and profiles.
-
-## Preview
-
 | | | | |
 |:---:|:---:|:---:|:---:|
 | <img src="./clawd-happy.svg" width="80"><br>happy | <img src="./clawd-sleeping.svg" width="80"><br>sleeping | <img src="./clawd-idle-living.svg" width="80"><br>idle | <img src="./clawd-working-thinking.svg" width="80"><br>thinking |
@@ -14,7 +8,9 @@ Animated pixel-art Clawd mascot SVGs for GitHub READMEs and profiles.
 | <img src="./clawd-crab-walking.svg" width="80"><br>crab walking | <img src="./clawd-mini-clawd.svg" width="80"><br>mini clawd | <img src="./mini-crab-typing.svg" width="80"><br>mini crab | <img src="./clawd-static-base.svg" width="80"><br>static |
 | <img src="./clawd-waving.svg" width="80"><br>waving | <img src="./clawd-celebrating.svg" width="80"><br>celebrating | <img src="./clawd-coffee.svg" width="80"><br>coffee | <img src="./clawd-rocket.svg" width="80"><br>rocket |
 | <img src="./clawd-error.svg" width="80"><br>error | <img src="./clawd-loading.svg" width="80"><br>loading | <img src="./clawd-running.svg" width="80"><br>running | <img src="./clawd-meditating.svg" width="80"><br>meditating |
-| <img src="./clawd-reading.svg" width="80"><br>reading | <img src="./clawd-lifting.svg" width="80"><br>lifting | | |
+| <img src="./clawd-reading.svg" width="80"><br>reading | <img src="./clawd-lifting.svg" width="80"><br>lifting | <img src="./clawd-coding.svg" width="80"><br>coding | <img src="./clawd-shipping.svg" width="80"><br>shipping |
+| <img src="./clawd-idea.svg" width="80"><br>idea | <img src="./clawd-love.svg" width="80"><br>love | <img src="./clawd-ninja.svg" width="80"><br>ninja | <img src="./clawd-gaming.svg" width="80"><br>gaming |
+| <img src="./clawd-music.svg" width="80"><br>music | <img src="./clawd-security.svg" width="80"><br>security | <img src="./clawd-star.svg" width="80"><br>star | <img src="./clawd-peeking.svg" width="80"><br>peeking |
 
 ## Usage
 
@@ -60,6 +56,16 @@ Reference the raw URL in your README:
 - `clawd-meditating.svg` — Zen floating with aura glow
 - `clawd-reading.svg` — Reading a book with page flips
 - `clawd-lifting.svg` — Lifting barbell with sweat drops
+- `clawd-coding.svg` — Coding on a laptop with floating brackets
+- `clawd-shipping.svg` — Walking with a package on head
+- `clawd-idea.svg` — Lightbulb moment with glowing rays
+- `clawd-love.svg` — Swaying with floating pixel hearts
+- `clawd-ninja.svg` — Headband, shuriken, and slash attack
+- `clawd-gaming.svg` — Holding controller with screen glow
+- `clawd-music.svg` — Grooving with headphones and floating notes
+- `clawd-security.svg` — Standing guard with shield and scan line
+- `clawd-star.svg` — Floating with orbiting star and twinkles
+- `clawd-peeking.svg` — Peeking up from behind a ledge
 
 ## License
 
