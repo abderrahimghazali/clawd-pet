@@ -116,14 +116,18 @@ Animated pixel-art Clawd pet. 82 unique SVG animations with CSS-only motion — 
 <td align="center"><img src="./clawd-dancing.svg" width="80"><br>dancing</td>
 <td align="center"><img src="./clawd-yoga.svg" width="80"><br>yoga</td>
 <td align="center"><img src="./clawd-singing.svg" width="80"><br>singing</td>
-<td align="center"><img src="./clawd-birthday.svg" width="80"><br>birthday</td>
-<td align="center"><img src="./clawd-gift.svg" width="80"><br>gift</td>
 </tr>
 <tr>
+<td align="center"><img src="./clawd-birthday.svg" width="80"><br>birthday</td>
+<td align="center"><img src="./clawd-gift.svg" width="80"><br>gift</td>
 <td align="center"><img src="./clawd-money.svg" width="80"><br>money</td>
 <td align="center"><img src="./clawd-mail.svg" width="80"><br>mail</td>
+</tr>
+<tr>
 <td align="center"><img src="./clawd-rainbow.svg" width="80"><br>rainbow</td>
 <td align="center"><img src="./clawd-praying.svg" width="80"><br>praying</td>
+<td></td>
+<td></td>
 </tr>
 </table>
 
