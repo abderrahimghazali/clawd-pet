@@ -9,15 +9,22 @@ export interface Pet {
 
 const categoryMap: Record<string, Category> = {
   // HTTP Status Codes
+  '200': 'http-status',
+  '201': 'http-status',
+  '204': 'http-status',
+  '301': 'http-status',
   '400': 'http-status',
   '401': 'http-status',
   '403': 'http-status',
   '404': 'http-status',
   '408': 'http-status',
+  '418': 'http-status',
   '429': 'http-status',
+  '451': 'http-status',
   '500': 'http-status',
   '502': 'http-status',
   '503': 'http-status',
+  '504': 'http-status',
   // Emotions
   'angry': 'emotions',
   'bored': 'emotions',
@@ -64,6 +71,13 @@ const categoryMap: Record<string, Category> = {
   'working-thinking': 'working',
   'working-typing': 'working',
   'working-wizard': 'working',
+  'working-reviewing': 'working',
+  'working-deploying': 'working',
+  'working-merging': 'working',
+  'working-testing': 'working',
+  'working-pairing': 'working',
+  'working-oncall': 'working',
+  'working-meeting': 'working',
 };
 
 function formatName(slug: string): string {
@@ -81,36 +95,48 @@ function getCategory(slug: string): Category {
   return 'activities';
 }
 
-// All pet slugs
+// All pet slugs — grouped by category, emotions first
 const petSlugs = [
-  'clawd-400', 'clawd-401', 'clawd-403', 'clawd-404', 'clawd-408', 'clawd-429',
-  'clawd-500', 'clawd-502', 'clawd-503',
-  'clawd-angry', 'clawd-astronaut', 'clawd-battery-low', 'clawd-birthday',
-  'clawd-bored', 'clawd-celebrating', 'clawd-charging', 'clawd-chef',
-  'clawd-clapping', 'clawd-coding', 'clawd-coffee', 'clawd-cool',
-  'clawd-crab-walking', 'clawd-crying', 'clawd-dancing', 'clawd-detective',
-  'clawd-disconnected', 'clawd-dizzy', 'clawd-eating', 'clawd-error',
-  'clawd-facepalm', 'clawd-fire', 'clawd-fishing', 'clawd-flexing',
-  'clawd-flying', 'clawd-gaming', 'clawd-gardening', 'clawd-gift',
-  'clawd-going-away', 'clawd-happy', 'clawd-idea', 'clawd-idle-living',
-  'clawd-king', 'clawd-laughing', 'clawd-lifting', 'clawd-loading',
-  'clawd-love', 'clawd-mail', 'clawd-meditating', 'clawd-mindblown',
-  'clawd-money', 'clawd-music', 'clawd-ninja', 'clawd-notification',
-  'clawd-painting', 'clawd-peeking', 'clawd-pirate', 'clawd-praying',
-  'clawd-rainbow', 'clawd-reading', 'clawd-rocket', 'clawd-running',
-  'clawd-scared', 'clawd-security', 'clawd-shipping', 'clawd-shrug',
-  'clawd-sick', 'clawd-singing', 'clawd-skateboard', 'clawd-sleeping',
-  'clawd-snow', 'clawd-star', 'clawd-static-base', 'clawd-surfing',
-  'clawd-telescope', 'clawd-trophy', 'clawd-umbrella', 'clawd-waving',
+  // Emotions
+  'clawd-angry', 'clawd-bored', 'clawd-celebrating', 'clawd-confused', 'clawd-cool',
+  'clawd-crying', 'clawd-dizzy', 'clawd-embarrassed', 'clawd-facepalm', 'clawd-grumpy',
+  'clawd-happy', 'clawd-hopeful', 'clawd-jealous', 'clawd-laughing', 'clawd-love',
+  'clawd-mindblown', 'clawd-praying', 'clawd-scared', 'clawd-shrug', 'clawd-sick',
+  'clawd-surprised', 'clawd-yawning',
+  // Activities
+  'clawd-astronaut', 'clawd-battery-low', 'clawd-birthday', 'clawd-bowling',
+  'clawd-camping', 'clawd-charging', 'clawd-chef', 'clawd-clapping', 'clawd-climbing',
+  'clawd-coding', 'clawd-coffee', 'clawd-crab-walking', 'clawd-crafting',
+  'clawd-dancing', 'clawd-detective', 'clawd-disconnected', 'clawd-dj',
+  'clawd-driving', 'clawd-drumming', 'clawd-eating', 'clawd-error',
+  'clawd-fire', 'clawd-fishing', 'clawd-flexing', 'clawd-flying',
+  'clawd-gaming', 'clawd-gardening', 'clawd-gift', 'clawd-going-away',
+  'clawd-ice-cream', 'clawd-idea', 'clawd-idle-living', 'clawd-king',
+  'clawd-lifting', 'clawd-loading', 'clawd-magic', 'clawd-mail',
+  'clawd-meditating', 'clawd-money', 'clawd-music', 'clawd-ninja',
+  'clawd-notification', 'clawd-painting', 'clawd-peeking', 'clawd-photography',
+  'clawd-pirate', 'clawd-podcast', 'clawd-rainbow', 'clawd-reading',
+  'clawd-rocket', 'clawd-running', 'clawd-security', 'clawd-shipping',
+  'clawd-singing', 'clawd-skateboard', 'clawd-sleeping', 'clawd-snow',
+  'clawd-star', 'clawd-static-base', 'clawd-studying', 'clawd-superhero',
+  'clawd-surfing', 'clawd-swimming', 'clawd-telescope', 'clawd-time-travel',
+  'clawd-trophy', 'clawd-umbrella', 'clawd-waving', 'clawd-yoga',
+  // Working
   'clawd-working-beacon', 'clawd-working-building', 'clawd-working-carrying',
   'clawd-working-conducting', 'clawd-working-confused', 'clawd-working-debugger',
-  'clawd-working-juggling', 'clawd-working-overheated', 'clawd-working-pushing',
-  'clawd-working-sweeping', 'clawd-working-thinking', 'clawd-working-typing',
-  'clawd-working-wizard', 'clawd-yoga',
-  'clawd-surprised', 'clawd-yawning', 'clawd-embarrassed', 'clawd-confused',
-  'clawd-grumpy', 'clawd-hopeful', 'clawd-jealous',
+  'clawd-working-deploying', 'clawd-working-juggling', 'clawd-working-meeting',
+  'clawd-working-merging', 'clawd-working-oncall', 'clawd-working-overheated',
+  'clawd-working-pairing', 'clawd-working-pushing', 'clawd-working-reviewing',
+  'clawd-working-sweeping', 'clawd-working-testing', 'clawd-working-thinking',
+  'clawd-working-typing', 'clawd-working-wizard',
+  // Seasonal
   'clawd-valentine', 'clawd-halloween', 'clawd-christmas', 'clawd-new-year',
   'clawd-spring', 'clawd-summer', 'clawd-autumn', 'clawd-winter',
+  // HTTP Status
+  'clawd-200', 'clawd-201', 'clawd-204', 'clawd-301',
+  'clawd-400', 'clawd-401', 'clawd-403', 'clawd-404', 'clawd-408',
+  'clawd-418', 'clawd-429', 'clawd-451',
+  'clawd-500', 'clawd-502', 'clawd-503', 'clawd-504',
 ];
 
 export const pets: Pet[] = petSlugs.map(slug => ({
