@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Clawd Pets — Animated SVG Pet Collection",
     description: "90+ animated SVG pets for your projects. Browse, search, copy, and download.",
-    images: [{ url: "/og.png", width: 1200, height: 630 }],
+    images: [{ url: "/og.png", width: 1872, height: 1170 }],
   },
   twitter: {
     card: "summary_large_image",
