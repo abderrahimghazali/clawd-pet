@@ -1,6 +1,6 @@
 # Clawd Pet
 
-Animated pixel-art Clawd pet. 84 unique SVG animations with CSS-only motion — no JavaScript, no dependencies.
+Animated pixel-art Clawd pet. 82 unique SVG animations with CSS-only motion — no JavaScript, no dependencies.
 
 <table>
 <tr>
@@ -106,18 +106,14 @@ Animated pixel-art Clawd pet. 84 unique SVG animations with CSS-only motion — 
 <td align="center"><img src="./clawd-shrug.svg" width="80"><br>shrug</td>
 </tr>
 <tr>
-<td align="center"><img src="./clawd-thumbsup.svg" width="80"><br>thumbs up</td>
-<td align="center"><img src="./clawd-thumbsdown.svg" width="80"><br>thumbs down</td>
 <td align="center"><img src="./clawd-clapping.svg" width="80"><br>clapping</td>
 <td align="center"><img src="./clawd-flexing.svg" width="80"><br>flexing</td>
-</tr>
-<tr>
 <td align="center"><img src="./clawd-pirate.svg" width="80"><br>pirate</td>
 <td align="center"><img src="./clawd-astronaut.svg" width="80"><br>astronaut</td>
-<td align="center"><img src="./clawd-king.svg" width="80"><br>king</td>
-<td align="center"><img src="./clawd-dancing.svg" width="80"><br>dancing</td>
 </tr>
 <tr>
+<td align="center"><img src="./clawd-king.svg" width="80"><br>king</td>
+<td align="center"><img src="./clawd-dancing.svg" width="80"><br>dancing</td>
 <td align="center"><img src="./clawd-yoga.svg" width="80"><br>yoga</td>
 <td align="center"><img src="./clawd-singing.svg" width="80"><br>singing</td>
 <td align="center"><img src="./clawd-birthday.svg" width="80"><br>birthday</td>
