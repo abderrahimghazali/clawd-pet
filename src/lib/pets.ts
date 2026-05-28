@@ -15,9 +15,11 @@ const categoryMap: Record<string, Category> = {
   '301': 'http-status',
   '400': 'http-status',
   '401': 'http-status',
+  '402': 'http-status',
   '403': 'http-status',
   '404': 'http-status',
   '408': 'http-status',
+  '410': 'http-status',
   '418': 'http-status',
   '429': 'http-status',
   '451': 'http-status',
@@ -51,6 +53,8 @@ const categoryMap: Record<string, Category> = {
   'grumpy': 'emotions',
   'hopeful': 'emotions',
   'jealous': 'emotions',
+  'hallucinating': 'emotions',
+  'skeptical': 'emotions',
   // Seasonal / Holiday
   'valentine': 'seasonal',
   'halloween': 'seasonal',
@@ -60,6 +64,7 @@ const categoryMap: Record<string, Category> = {
   'summer': 'seasonal',
   'autumn': 'seasonal',
   'winter': 'seasonal',
+  'thanksgiving': 'seasonal',
   // Working States
   'working-beacon': 'working',
   'working-building': 'working',
@@ -81,6 +86,11 @@ const categoryMap: Record<string, Category> = {
   'working-pairing': 'working',
   'working-oncall': 'working',
   'working-meeting': 'working',
+  'working-context-full': 'working',
+  'working-tool-calling': 'working',
+  'working-rubber-duck': 'working',
+  'working-firefighting': 'working',
+  'working-rollback': 'working',
 };
 
 function formatName(slug: string): string {
@@ -106,6 +116,7 @@ const petSlugs = [
   'clawd-happy', 'clawd-hopeful', 'clawd-jealous', 'clawd-laughing', 'clawd-love',
   'clawd-mindblown', 'clawd-praying', 'clawd-scared', 'clawd-shrug', 'clawd-sick',
   'clawd-sad', 'clawd-smile', 'clawd-evil', 'clawd-surprised', 'clawd-yawning',
+  'clawd-hallucinating', 'clawd-skeptical',
   // Activities
   'clawd-astronaut', 'clawd-battery-low', 'clawd-birthday', 'clawd-bowling',
   'clawd-camping', 'clawd-charging', 'clawd-chef', 'clawd-clapping', 'clawd-climbing',
@@ -132,12 +143,14 @@ const petSlugs = [
   'clawd-working-pairing', 'clawd-working-pushing', 'clawd-working-reviewing',
   'clawd-working-sweeping', 'clawd-working-testing', 'clawd-working-thinking',
   'clawd-working-typing', 'clawd-working-wizard',
+  'clawd-working-context-full', 'clawd-working-tool-calling', 'clawd-working-rubber-duck',
+  'clawd-working-firefighting', 'clawd-working-rollback',
   // Seasonal
   'clawd-valentine', 'clawd-halloween', 'clawd-christmas', 'clawd-new-year',
-  'clawd-spring', 'clawd-summer', 'clawd-autumn', 'clawd-winter',
+  'clawd-spring', 'clawd-summer', 'clawd-autumn', 'clawd-winter', 'clawd-thanksgiving',
   // HTTP Status
   'clawd-200', 'clawd-201', 'clawd-204', 'clawd-301',
-  'clawd-400', 'clawd-401', 'clawd-403', 'clawd-404', 'clawd-408',
+  'clawd-400', 'clawd-401', 'clawd-402', 'clawd-403', 'clawd-404', 'clawd-408', 'clawd-410',
   'clawd-418', 'clawd-429', 'clawd-451',
   'clawd-500', 'clawd-502', 'clawd-503', 'clawd-504',
 ];
